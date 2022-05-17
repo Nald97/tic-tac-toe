@@ -1,0 +1,52 @@
+.container {
+	width: 332px;
+	height: 359.5px;
+	align-items: center;
+	flex-direction: column;
+	flex-direction: row;
+	background-image: url(https://i.imgur.com/OVBsgc1.jpg);
+	border: 2px solid black;
+	font-family: "Indie Flower", cursive;
+}
+
+.cell {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: xxx-large;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: white;
+	font-weight: 900;
+  }
+
+table td {
+	border: 3px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+.video_game_button {
+	text-shadow: 1px 1px pink, -1px -1px maroon;
+  
+	line-height: 1.5em;
+	text-align: center;
+	display: inline-block;
+	width: 4.5em;
+	height: 4.5em;
+	border-radius: 50%;
+	background-color: red;
+	box-shadow: 0 0.2em maroon;
+	color: red;
+	margin: 5px;
+	background-color: red;
+	background-image: linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.video_game_button:active {
+	box-shadow: none;
+	position: relative;
+	top: 0.2em;
+}  
